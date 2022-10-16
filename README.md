@@ -1,12 +1,11 @@
-Worked Excercises from _The C Programming Language_, by Brian W. Kernignham and Dennis M. Ritchie
-=======
+# Worked Excercises from _The C Programming Language_, by Brian W. Kernignham and Dennis M. Ritchie
 
 This repository contains solutions to the examples presented in the classic book
 [_The C Programming Language_](https://en.wikipedia.org/wiki/The_C_Programming_Language), by [Brian W. Kerningham](https://en.wikipedia.org/wiki/Brian_Kernighan) and [Dennis M. Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie).  In many cases they
 have been written to utilize [C99](https://en.wikipedia.org/wiki/C99) features. Solutions for any given chapter attempt to only use featured introduced up to that point in
 the book.
 
-Kernighan and Ritchie The C Programming Language Code Examples
+## Kernighan and Ritchie The C Programming Language Code Examples
 
 ### Cross-Platform Testing
 
@@ -26,10 +25,12 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 1-10 - showhiddens.c:  Replaces tabs, backspaces, and backslashes by their escape characters
 * 1-11 - countwords.c:  Counts the number of words
 * 1-12 - wordperline.c:  Outputs its input one word per time
-* 1-13 - wordhistohori.c:  Horizontally-oriented histogram of the number of words
-*      - wordhistovert.c:  Vertically-oriented histogram of the number of words
-* 1-14 - charhistohori.c:  Horizontally-oriented histogram of the number of characters
-*      - charhistovert.c:  Vertically-oriented histogram of the number of characters
+* 1-13 - Horizontally-oriented histogram of the number of words
+  * wordhistohori.c:  Horizontally-oriented histogram of the number of words
+  * wordhistovert.c:  Vertically-oriented histogram of the number of words
+* 1-14 - Horizontally-oriented histogram of the number of characters
+  * charhistohori.c:  Horizontally-oriented histogram of the number of characters
+  * charhistovert.c:  Vertically-oriented histogram of the number of characters
 * 1-15 - ftoc-func.c:  Fahrenheit-Celsius Table (using a function)
 * 1-16 - longestline.c:  Print arbitrarily long lines
 * 1-17 - longlines.c:  Prints lines longer than 80 characters
@@ -166,7 +167,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 8-07 - calloc2.c:  Adds some error checking to malloc() routines
 * 8-08 - bfree.c:  Adds bfree() to malloc()
 
-##Extras
+## Extras
 
 In many cases these are programs outlined in K&R which are useful or interesting but were not carried forward into an exercise. The other cases are test programs or experiments.
 
@@ -181,7 +182,7 @@ In many cases these are programs outlined in K&R which are useful or interesting
 * testupcase.c:  Tests a technique to convert uppercase ASCII letters to lowercase
 * wordxrefstem.c:  An alternative implementation of wordxref.c (6-03) that leverages Martin Porter's stemming algorithm
 
-##Test Files
+## Test Files
 
 The following test data files are provided to support manually testing the exercises. Specifically, the ones that draw from standard input can be manually tested with these.
 
@@ -210,11 +211,11 @@ The following test data files are provided to support manually testing the exerc
 * words.txt - Some words used to test wordxref.c punctuation handling
 * zero.txt - A totally empty file (no data)
 
-##Style
+## Style
 
-See *[STYLE.md](https://github.com/ptdecker/cbasics/blob/master/STYLE.md)* for notes on overall style and approach to the code
+See _[STYLE.md](https://github.com/ptdecker/cbasics/blob/master/STYLE.md)_ for notes on overall style and approach to the code
 
-##License
+## License
 
 These solutions are copyright under the terms of the GNU GENERAL PUBLIC LICENSE v3 (see LICENSE) with the following exceptions:
 
